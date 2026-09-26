@@ -21,10 +21,10 @@
 #include <AccelStepper.h>
 
 // Octopus Pro v1.1 motor socket 0 and its corresponding endstop input.
-constexpr pin_size_t STEP_PIN = PF13;
-constexpr pin_size_t DIR_PIN = PF12;
-constexpr pin_size_t ENABLE_PIN = PF14;
-constexpr pin_size_t ENDSTOP_PIN = PG6;
+constexpr uint8_t STEP_PIN = PF13;
+constexpr uint8_t DIR_PIN = PF12;
+constexpr uint8_t ENABLE_PIN = PF14;
+constexpr uint8_t ENDSTOP_PIN = PG6;
 
 // Change these two settings if STATUS or motor travel is reversed.
 constexpr uint8_t ENDSTOP_TRIGGERED_STATE = LOW;

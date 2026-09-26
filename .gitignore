@@ -44,3 +44,9 @@ taco_dataset/
 *.mp4
 *.avi
 *.mov
+
+# Arduino build intermediates (keep the flash-ready firmware image)
+build/**/*.ino.bin
+build/**/*.ino.elf
+build/**/*.ino.hex
+build/**/*.ino.map
